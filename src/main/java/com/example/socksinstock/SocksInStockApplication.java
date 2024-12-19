@@ -1,13 +1,15 @@
 package com.example.socksinstock;
 
+import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SocksinstockApplication {
+@OpenAPIDefinition
+public class SocksInStockApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SocksinstockApplication.class, args);
+		SpringApplication.run(SocksInStockApplication.class, args);
 	}
 
 }
